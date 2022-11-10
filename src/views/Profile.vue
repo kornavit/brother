@@ -10,6 +10,7 @@
       :birthday="member.birthday"
       :content="member.content"
     ></ProfileVue>
+    <br>
     </div>
     <!-- <ProfileVue
       :name="name"
