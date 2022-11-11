@@ -1,20 +1,20 @@
 <template>
     <div
-      class="w-1/3 rounded-lg border-2 p-3 shadow-lg transition duration-300 ease-in-out hover:bg-blue-300 hover:scale-105"
+      class="w-1/3 rounded-lg border-2 p-4 shadow-lg bg-white duration-300 ease-in-out hover:bg-blue-300 hover:scale-105"
     >
       <div class="w-2/3 rounded-full mx-auto" alt="" width="200px" height="200px"></div>
       <img v-bind:src="image" v-bind:width="100" class="rounded-full">
-      <div class="flex justify-between w-2/3 mx-auto h-32 w-100">
+      <div class="flex justify-between w-2/3 mx-auto p-3">
       <div class="text-xl font-bold uppercase">My Profile</div>
       <div class="w-2/3 mx-auto">
-        <div class="text-sm">{{ name }}</div>
+        <div class="text-lg">{{ name }}</div>
         <div class="text-base">{{ work }}</div>
         <div class="text-base">{{ birthday }}</div>
         <div class="text-lg font-normal">{{ content }}</div>
       </div>
       </div>
       <div class="w-2/3 mx-auto space-x-3 border-t-2 p-2">
-        <font-awesome-icon icon="fa-brands fa-twitter" class="text-2xl" />
+        <font-awesome-icon icon="fa-brands fa-instagram" class="text-2xl"/>
         <font-awesome-icon icon="fa-brands fa-facebook" class="text-2xl" />
         <font-awesome-icon icon="fa-solid fa-xmark" class="text-2xl"/>
         <font-awesome-icon icon="fa-solid fa-caret-down" class="text-2xl"/>
