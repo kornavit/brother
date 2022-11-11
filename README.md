@@ -26,5 +26,10 @@ npm run dev
 
 ```sh
 npm run build
+git add dist -f
+git commit -m "deploy"
+git subtree push --prefix dist origin gh-pages
+ก่อนอื่นไปแก้ไขในไฟล์ vite.config.js
+ใส่ใน export default defineConfig ให้เพิ่มตัวของ base: "/ตามด้วยชื่อของ repository/"
 ```
 # brother
